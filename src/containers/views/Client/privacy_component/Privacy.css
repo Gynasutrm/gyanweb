@@ -1,0 +1,8 @@
+.privacyBox { padding: 50px 0; text-align: left;}
+.boxsdElm {  box-shadow: 0px 0px 21px #00000029; padding: 35px; }
+.privacyBox h3 { font-size: 20px; color: #000; padding-bottom: 20px; text-transform: inherit; }
+.privacyBox p { width:100%; float: left; color:#292929; padding: 0px; margin: 0 0 10px 0; font-size: 14px; }
+.privacyBox p a{ float: right; text-transform: uppercase; font-size: 16px; color: #1D90FF!important; font-weight:600; }
+.leftPvc .leftElm { width: 60%!important; float: left; }
+.leftPvc img { float: right; }
+.leftPvc { padding-bottom: 25px; }

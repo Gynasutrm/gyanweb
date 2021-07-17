@@ -1,0 +1,8 @@
+a {
+	transition: 0.25s ease-in-out;
+	-webkit-transition: 0.25s ease-in-out;
+	-moz-transition: 0.25s ease-in-out;
+}
+.middleboxArea {
+	width: 100% !important;
+}

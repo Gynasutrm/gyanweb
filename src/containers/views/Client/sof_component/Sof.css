@@ -1,0 +1,26 @@
+.sofTitle { padding-top: 50px; font-size: 14px; color: #000; }
+.sofTitle h2 { font-size: 26px; padding-bottom: 20px; text-transform: inherit; }
+.sofTitle h2,.sofTitle p { padding-left: 70px; padding-right: 70px; }
+
+.jeenewBox.sof li.first span { padding: 10px 13px; width: 100%!important; }
+.jeenewBox.sof li span { width: 60%; border-bottom: 1px solid #efefef;  }
+.jeenewBox.sof li.setminHt span {min-height: 55px;}
+
+.jeenewBox.sof li span:first-child { width: 40%;}
+.jeenewBox.sof { margin-top: 40px; }
+.jeenewBox.sof li:last-child span { border-bottom: 0px; }
+.jeenewBox.sof li span em { font-style: normal; width: 100%; float: left; }
+.jeenewBox.sof li span em .fa { padding-top:6px; font-size: 10px; float: left; padding-right: 5px; }
+.pad_t_40 { padding-top: 40px; }
+
+.conductBox { padding: 50px 0; }
+.conductItem { padding-bottom: 15px; color: #000; }
+.conductItem p { font-size: 14px; }
+.conductItem h4 { padding-bottom: 10px; text-transform: inherit; }
+.conductItem ul { padding-bottom: 15px; }
+.conductItem li { width: 100%; float: left; }
+.conductItem li .fa { font-size: 10px; float: left; padding: 7px 5px 0 0;}
+.conductItem li span { width: 98%; float: left; }
+.conductBox .jeenewBox.sof { width: 35%!important; }
+.conductBox .jeenewBox.sof li span { width: 65%; border-bottom: 1px solid #efefef; }
+.conductBox .jeenewBox.sof li span:first-child { width: 35%;}

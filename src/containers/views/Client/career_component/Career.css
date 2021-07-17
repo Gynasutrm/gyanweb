@@ -1,0 +1,55 @@
+.careerCntr { padding: 50px 0; }
+.careerTitle h2 { margin-bottom: 25px; font-size: 36px; color: #000; letter-spacing: 0.29px; text-transform: uppercase; }
+.careerTitle h2 span { padding-top: 5px; display: block; font-size: 18px; text-transform: initial; letter-spacing: 0.16px; color: #464646; }
+.careerTitle .careerBtn { padding: 8px 35px; font-size: 18px; border-radius: 6px; color: #fff!important; background: #1D8EFC; }
+
+.pad_l_r_100 { padding-left: 100px; padding-right: 100px;}
+.pad_l_r_120 { padding-left: 120px; padding-right: 120px;}
+.careerImage { margin: 50px 0; }
+.careerImage img { height: 320px; width: 100%; float: left; border-radius: 10px; box-shadow: 0px 0px 69px #6d4b0729; }
+
+.careerWelcome h3 { font-size: 36px; letter-spacing: 0.29px; font-weight: 400;}
+.careerWelcome h3 span { font-weight: 700; color: #F29423;}
+.careerWelcome ul { margin-top: 25px; }
+.careerWelcome li { width: 25%; float: left; text-align: center; padding: 10px; }
+.careerWelcome li span { display: block; float: none; margin:0px auto; width: 53px; height: 53px; }
+.careerWelcome li p { font-size: 14px; color: #000; padding-top: 20px; margin-bottom: 0px;}
+.careerWelcome li .icone1 { background: url('../../../../assets/images/home/career_icon1.png') no-repeat;}
+.careerWelcome li .icone2 { background: url('../../../../assets/images/home/career_icon2.png') no-repeat;}
+.careerWelcome li .icone3 { background: url('../../../../assets/images/home/career_icon3.png') no-repeat;}
+.careerWelcome li .icone4 { background: url('../../../../assets/images/home/career_icon4.png') no-repeat;}
+
+.careerPosition { padding: 50px 150px;}
+.careerPosition h4 { font-size: 36px; color: #000; font-weight: 700; }
+.careerPosition h4 span { text-transform: initial; padding-top: 10px; color: #000; display: block; font-size: 14px; font-weight: normal; }
+.careerPosition ul { margin-top: 25px; }
+.careerPosition li { width: 49%; float: left; margin-bottom: 15px; border-radius: 6px; background: #EBF3F5; padding: 15px; }
+.careerPosition li:nth-child(2n) { float: right; }
+.careerPosition li span { float: left; font-size: 16px; color: #000; font-weight: 600; }
+.careerPosition li p { margin-bottom: 0px; }
+.careerPosition li p em { float: left; font-style: normal; font-size: 14px; color: #000;}
+.careerPosition li p em:last-child { float: right; }
+
+.careerLinkedin { position: relative;}
+.careerLinkedin h5 { font-size: 30px; padding-top: 50px; color: #fff; text-transform: inherit; }
+.careerLinkedin a { cursor: pointer; border-radius: 7px; background: #fff; color:#230224; font-size: 13px; padding: 8px 30px; }
+.careerLinkedin .overLay { padding: 25px; position: absolute; top: 0px; left: 0px; z-index: 2;}
+
+@media only screen and (max-width: 767px){ 
+    .mob_no_pad { padding: 0px;}
+    .careerTitle h2,.careerWelcome h3,.careerPosition h4 { font-size: 26px;}
+    .careerImage,.careerWelcome { margin: 50px 0 0 0;}
+    .careerWelcome li,.careerPosition li { width:100%; margin: 0 0 35px 0;}
+    .careerWelcome li:last-child,.careerPosition li:last-child { margin-bottom: 0px;}
+    .careerPosition { padding: 30px 0; }
+    .careerPosition li { text-align: center;}
+    .careerPosition li p em { width: 100%; }
+    .careerLinkedin { margin-bottom: 40px;}
+    .careerLinkedin img { width: 100%; }
+    .careerLinkedin .overLay { padding: 10px 15px; }
+    .careerLinkedin h5 { padding-top: 5px; font-size: 13px; line-height: 20px; }
+    .careerLinkedin a { background: #1D8EFC; color:#fff!important; }
+    .mob_m_t_20 { margin-top: 20px;}
+
+
+}

@@ -1,0 +1,18 @@
+.grid_32 { width: 32%; float: left; }
+.mar_b_25 { margin-bottom: 25px; }
+.adqtitle { font-size: 16px!important; color: #01172A; line-height: 20px; }
+.adqtitle span { display: block; font-size: 13px; color: #505050;}
+.grid_66 { width: 66%; float: left; }
+.float_right { float: right!important; }
+.grid_45 { width: 45%; float: left; }
+.grid_10 { width: 10%; float: left; }
+.padding_r_15 { padding-right: 15px; }
+.addMore { margin-top: 150px; text-align: center; margin-left: 10px; float: left; border-radius: 4px; color: #fff; padding: 5px 10px; background: #01172A; font-size: 13px; }
+
+.itemCntr ul { margin: 0px; padding: 0px;}
+.itemCntr { min-height: 250px; border: 1px solid #efefef; border-radius: 4px; padding: 5px; margin-top: 10px; }
+.itemCntr li { width: 100%; float: left; margin-bottom: 5px; padding: 5px; background: #F5F5F5; border-radius: 4px; font-size: 13px; }
+.itemCntr li label { margin: 0px; width: 100%; float: left; }
+.itemCntr li input { float: left; width: 5%; float: left; margin-top: 5px; margin-right: 10px; }
+.itemCntr li span { width: 90%; float: left; }
+.okAction { color: #fff; background: #FF6F00; font-size: 13px; padding: 5px 20px; border-radius: 4px; float: right; }

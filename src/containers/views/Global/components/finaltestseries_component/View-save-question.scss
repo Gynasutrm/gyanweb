@@ -1,0 +1,23 @@
+.question-preview {
+	text-align: start;
+	padding: 0 1rem;
+	.question {
+		ol li {
+			font-weight: 600;
+			margin-bottom: 0.25rem;
+		}
+	}
+	ol {
+		display: flex;
+		flex-direction: column;
+	}
+	.option {
+		li {
+			display: flex;
+			justify-content: start;
+			span {
+			}
+		}
+		margin-bottom: 1rem;
+	}
+}

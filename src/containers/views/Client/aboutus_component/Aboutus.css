@@ -1,0 +1,35 @@
+.pageBanner { padding-bottom: 35px; height: 250px; position: relative; text-align: center; background-size: cover!important; background-repeat: no-repeat!important; background-position: top center!important; background-attachment: fixed!important; }
+.pageBanner .bgopct { width: 100%; float: left; position: absolute; left: 0px; top: 0px; height: 100%; background: rgba(0,0,0,.7); z-index: 3; }
+.pageBanner .overLay { width: 100%; float: left; position: absolute; left: 0px; top: 0px; height: 100%; z-index: 4; }
+.pageBanner .overLay h2 { font-size: 42px; padding-top: 80px; line-height: 35px; color: #fff; font-weight: 700; }
+
+.aboutContent {padding: 45px 0; text-align: center; font-size: 14px; }
+.aboutContent h3 { text-align: center; font-size: 26px; color: #000; text-transform: inherit; }
+.aboutContent p { width:100%; float: left; padding: 0px; margin-top: 10px; }
+.aboutContent p a{ color: #00a9d4; }
+
+.aboutGyan { padding: 50px 0; font-size: 14px; }
+.aboutGyan h3 { font-size: 26px; color: #000; text-transform: inherit; }
+.aboutGyan p { padding: 0px; margin-top: 10px; }
+.aboutGyan p a { color: #00a9d4; }
+.aboutLogo_ab { padding-top: 5px; padding-bottom: 15px; }
+.aboutLogo_ab img { width: 20%; float: left;}
+.midicon_about { text-align: center; position: relative; }
+.midicon_about img { margin-top: 25px; }
+.midicon_about .directionLeft { width: 238px; height:268px; position: absolute; top: -15px; left: 100px; z-index: 3; background: url('../../../../assets/images/home/leftabout.png') no-repeat; }
+.midicon_about .directionRight { width: 291px; height:284px; position: absolute; top: -15px; right: 120px; z-index: 3; background: url('../../../../assets/images/home/rightabout.png') no-repeat;}
+.aboutBoxdata_ab { margin: 0 35px; width: 50%; float: left; text-align: center; padding: 25px; border-radius: 4px; background: #fcfcfc;  }
+.aboutBoxdata_ab.g80 { float: none; margin: 45px auto!important; min-height: 260px; display: block; width: 75%; }
+
+@media only screen and (max-width: 767px){ 
+    .pageBanner .overLay h2 { line-height: 45px; }
+    .pageBanner .overLay h2 span { padding-top: 15px; }  
+    .aboutLogo_ab img { float: none; margin: 0px auto; width: 50%; display: block; }
+    .aboutBoxdata_ab { width: 100%; padding: 0px; margin: 25px 0px;}
+    .midicon_about .directionLeft,.midicon_about .directionRight { display: none; }
+    .midicon_about img { width: 100%; }
+    .jeeAppBox.supportBg .leftJeeBox { width: 100%!important; }
+    .jeeAppBox.supportBg .leftJeeBox.aboutleft { text-align: center; padding-bottom: 40px;}
+    .jeeAppBox.supportBg .leftJeeBox.aboutleft ul { padding: 0px!important; }
+    .aboutfixImg img { width: 70%!important; float: none; display: block; margin: 0px auto!important; position: initial!important; }
+}

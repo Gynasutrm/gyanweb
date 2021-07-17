@@ -1,0 +1,42 @@
+.divSepht { padding: 25px 0; }
+.ntseBox img {  width: 38%; right: left;}
+.ntseBox .advantafeNtse { width: 62%; float: left; padding-right: 35px; }
+.ntseBox .advantafeNtse li { width: 100%; float: left; font-size: 14px; color: #000; margin-bottom: 3px; }
+.ntseBox .advantafeNtse li .fa { width: 5px; font-size: 10px; float: left; color: #230224; padding-top: 6px; }
+.ntseBox .advantafeNtse li span { width: 97%; float: left; padding-left: 10px; }
+.ntseBox .advantafeNtse h3 { padding:  15px 0 0 0; font-size: 26px; letter-spacing: 0.21px; color: #230224;}
+
+.ntseBox.achieveItem img {  width: 35%; right: left; }
+.ntseBox.achieveItem .advantafeNtse { width: 65%; float: right; padding-left: 75px; }
+.ntseBox.achieveItem .advantafeNtse h3 { font-size: 36px; color: #000;}
+.ntseBox.achieveItem .advantafeNtse p { font-weight: 700; font-size: 20px; color: #230224; }
+.ntseBox.achieveItem .advantafeNtse ul { padding-bottom: 15px; }
+
+.elcBox { padding-top: 15px; }
+.elcBox h4 { font-size:20px; color: #230224; text-transform: inherit;}
+.elcBox li,.elcBox p { font-size: 13px; color: #000; padding: 5px 0; margin: 0px; }
+.elcBox li { border-bottom: 1px solid #efefef; }
+.elcBox ul,.elcBox p { width: 60%!important; margin:0px auto; float: none; display: block; }
+
+.ntseQualify { padding: 35px 0 0 0; }
+.itemBox { width: 48.8%; min-height: 210px; float:left; margin-right: 25px; margin-bottom: 25px; border-radius: 6px; background: #F7EBF8; padding: 20px 15px; }
+.itemBox:last-child { margin-right: 0px; }
+.itemBox h4 { padding:0 0 5px 0; margin: 0px; font-size: 17px; color: #000; text-transform: inherit; text-align: left;}
+.itemBox ul { width:100%; float: left; padding: 5px 10px; margin-bottom: 5px; border-radius: 6px; font-size: 13px; color: #000; text-align: left; }
+.whiteUlElm { background: #fff; margin: 0px; }
+.whiteUlElm li span { color: #000!important; font-weight:normal!important;}
+.itemBox li { width: 100%; float:left;  padding: 5px 0 px 0;}
+.itemBox li span { width: 18%; float: left; padding-right: 5px; color: #230224; font-weight:500; }
+.itemBox li span:first-child { width: 46%; }
+
+.itemBox .whiteUlElm.last li span { width: 29%!important; }
+.itemBox .whiteUlElm.last li span:last-child { width: 10%!important; }
+
+@media only screen and (max-width: 767px){ 
+    .ntseBox .advantafeNtse,.ntseBox.achieveItem .advantafeNtse { width: 100%; padding: 0px; }
+    .ntseBox img,.ntseBox.achieveItem img { width: 60%; padding: 0px; float: none!important; margin: 0px auto; display: block; }
+    .divSepht { padding-top: 20px!important; }
+    .ntseBox.achieveItem .advantafeNtse h3 { font-size: 30px; }
+    .itemBox { width: 100%; margin: 0 0 25px 0!important; }
+    .itemBox li span,.itemBox li { font-size: 11px!important;}
+}

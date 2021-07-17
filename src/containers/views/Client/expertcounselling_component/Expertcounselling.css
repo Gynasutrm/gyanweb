@@ -1,0 +1,56 @@
+.expertCBox { color: #fff; background: #230224; min-height: 348px; padding: 35px; margin-top: 20px; border-radius: 10px; position: relative; }
+.expertLeft { width: 48%; float: left; padding-right: 20px; }
+.expertCBox img { position: absolute; bottom: -60px; right: 0px; z-index: 2;}
+.expertCBox h3 { font-size: 40px; color: #FFAA00; margin: 15px 0 15px 0; padding: 0px; }
+.expertCBox h3 span { margin-top: 15px; display: block; width: 140px; height: 1px; background: #fff; }
+.expertCBox p { font-size: 24px; letter-spacing: 0.19px; margin: 0px; padding: 15px 0 0 0px; }
+
+.responArea { padding: 80px 0 0 0; }
+.responArea img { margin: 0px auto; display: block; float: none; }
+
+.jeeAppBox.supportBg { background: #f7ebf8; padding: 60px 0 0 0px; }
+.jeeAppBox.supportBg h2 { font-size: 30px; color: #000; padding: 0px; margin-bottom: 15px; }
+.jeeAppBox.supportBg p { font-size: 18px; color:#230224; font-weight: 600; }
+.jeeAppBox.supportBg li .fa { color: #230224; }
+.jeeAppBox.supportBg li { font-size: 14px; color: #000; }
+.jeeAppBox.supportBg img { width: 40%; position: absolute; bottom: 0; right: 0; z-index: 2;}
+.jeeAppBox.supportBg .leftJeeBox { width: 65%; padding: 0 20px 60px 0; }
+
+.customwdth { width: 48%; float: left; }
+.customwdth:nth-child(2n) { float: right; }
+.customwdth .form-control { background:#efefef; border-radius: 30px; color: #8B8B8B; }
+.chkText { color: #888; font-size: 12px; width: 80%;  }
+.chkText input { margin-top: 5px; float: left; }
+.chkText span { text-align: left; padding-left: 10px; width: 95%; float: left; }
+.mwexbtn { border-radius: 6px; color: #fff; width: 100%; margin-top: 10px; background: #1D8EFC; font-size: 20px; text-align: center; padding: 10px; border:none;}
+
+.treeImgCntr { padding-top: 25px; }
+.meetExpert { padding-bottom: 25px;}
+.meetExpert h2 { font-weight: 700; text-transform: inherit; }
+.meetExpert p{ color: #230224;}
+.treeImgCntr .imgHeight { height: 450px; position: relative;}
+.treeImgCntr img { height: 450px; position: absolute; bottom: -30px; left: 0px; z-index: 1;}
+.footerCntr { position: relative; z-index: 2; }
+.expFormBox { width: 50%; margin: 0px auto; float: none; }
+.jeeAppBox li img { width: 20px!important; height: 23px; float: left; position: inherit!important; }
+.getuPlan { position: absolute; top: 40%; right: 30%; z-index: 999;; width: 160px; float: left; height: 160px; font-size: 20px; border: 7px solid #fff; box-shadow: 0px 23px 26px #00000054; border-radius: 100%; background: #230224; color: #fff; text-align: center; line-height:  30px; padding-top: 30px; }
+.posAbs1 { position: absolute; top: 12px; right: 15px; cursor: pointer; font-size: 25px; color:#ccc;}
+.goalBox { width: 100%; float: left; padding: 5px 0 0 0; position: absolute; top:47px; left: 0px; z-index: 4; background:#f7eaf8; border-radius: 4px; border: 1px solid #f7eaf8;}
+.goalBox li { width: 100%; float: left; padding:5px 20px; cursor: pointer; text-align: left; font-size: 14px; }
+.goalBox li:hover { background: #fff; color: #333; }
+
+@media only screen and (max-width: 767px){ 
+    .overLay { position: unset;}
+    .expertLeft,.jeeAppBox.supportBg img,.customwdth,.chkText { width: 100%; }
+    .expertCBox h3 { font-size: 32px; }
+    .expertCBox img { width: 100%; margin-top: 25px;}
+    .expertCBox p { min-height: 425px; }
+    .responArea img { width: 100%; padding: 0px; margin: 25px 0;}
+    .responRight { width: 100%; padding-left: 0px;}
+    .jeeAppBox.supportBg .leftJeeBox { width: 100%; padding: 10px 0; }
+    .jeeAppBox .suprdx li span { width: 92%!important; }
+    .jeeAppBox.supportBg ul { padding-bottom: 400px; }
+    .chkText span { width: 92%; }
+    .treeImgCntr img,.treeImgCntr .imgHeight { width: 100%; height: 190px; }
+    .getuPlan { top: -19%; right:30%; }
+}

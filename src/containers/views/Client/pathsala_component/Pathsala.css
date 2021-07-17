@@ -1,0 +1,30 @@
+.pageBanner.pathsala { background-size: unset!important; height: 500px; background-attachment: unset!important; }
+.pageBanner.pathsala h2 { padding-top:  200px; display: none; }
+.pageBanner.pathsala .bgopct { background: rgba(0,0,0,.2);}
+.pathsalaList li { padding: 0 15px; text-align: center; width: 14.2%; display: inline-block;}
+.pathsalaList li span { width: 90px; height: 130px; }
+.pathsalaList li span img { width: auto; }
+.pathsalaList li p { width: 100%; float: left; padding-top: 7px; font-size: 14px; color: #000; font-weight: 700;}
+
+.egyanSetup { padding: 35px 0; }
+.egyanSetup p { padding: 30px 0; margin-bottom: 0px; }
+.egyanSetup .egyanBtn { cursor: pointer; padding: 8px 50px; color: #fff; background: #230224; border-radius: 6px; }
+
+.featureCntr { padding-bottom: 50px; }
+.featureBox { position: relative; width: 48%; float: left; padding:5px; box-shadow: 0px 1px 99px #C007C73D; border-radius: 11px;}
+.featureBox:last-child { float: right; }
+.featureBox h3 { padding-top: 15px; font-size: 20px; color: #000; font-weight: 700; text-transform: initial; }
+.featureBox ul { padding-bottom: 20px!important;}
+.featureBox li { margin: 0 20px; font-size: 14px; color: #464646; padding: 5px 0; border-bottom: 1px solid #efefef;}
+.featureBox li:last-child { border-bottom: none;}
+.featureBox img { height:289px; width:100%; }
+.featureBox .posabsElm { width:45px; height: 2px; background: #C4D3D6; position: absolute; top: 10%; right: -45px; z-index: 3;}
+.featureBox .posabsElm1 { width:2px; height: 57px; background: #C4D3D6; position: absolute; top: -9%; right: -25px; z-index: 3;}
+
+
+@media only screen and (max-width: 767px){ 
+    .pathsalaList li,.featureBox { width: 100%; }
+    .featureBox:last-child { margin-top:  35px; }
+    .posabsElm1,.posabsElm { display:  none;}
+    .imgEgyaan img { width: 100%; }
+}

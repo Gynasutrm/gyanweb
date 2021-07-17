@@ -1,0 +1,77 @@
+.content-wrapper {
+  padding: 0px;
+}
+.profile-wrapper {
+  .profile-page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 240px;
+    background-color: aquamarine;
+    padding: 1rem;
+    // background-image: url("../../assets/images/trend_img6.jpg");
+    input[type="file"] {
+      display: none;
+    }
+    .header-content {
+      display: flex;
+      flex-direction: row;
+      .profile-image {
+        width: 162px;
+        height: 162px;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 26px #006a8b29;
+        border-radius: 8px;
+        img {
+          border-radius: 50%;
+          padding: 10px;
+        }
+        .enable-upload {
+          cursor: pointer;
+        }
+      }
+      .title {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        font-weight: 600;
+        font: normal normal medium 20px/26px Roboto;
+        color: #000000;
+      }
+    }
+    .change-password-btn button {
+      //   background: #000000 0% 0% no-repeat padding-box;
+      border: 1px solid #ffffff;
+      border-radius: 4px;
+      opacity: 1;
+      backdrop-filter: blur(47px);
+      -webkit-backdrop-filter: blur(47px);
+    }
+  }
+  .profile-form {
+    .grid_30 {
+      display: flex;
+      flex-direction: column;
+    }
+    .error-message {
+      font-size: 13px;
+      color: #f21e08;
+      padding-top: 5px;
+    }
+    .section-title {
+      text-align: left;
+      font: normal normal medium 16px/21px Roboto;
+      color: #1e90ff;
+    }
+    .address {
+      background: #ffffff 0% 0% no-repeat padding-box;
+    }
+    .profile-details {
+      padding: 1rem;
+    }
+    .address {
+      padding: 1rem;
+    }
+  }
+}

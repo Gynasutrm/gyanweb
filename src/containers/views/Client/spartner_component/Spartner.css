@@ -1,0 +1,9 @@
+.spartner { padding-top: 50px; text-align: center;}
+.spartner:last-child { padding-bottom: 50px; }
+.spartner h3 { margin: 0px; padding-bottom: 20px; font-size: 26px; color: #000; text-transform: inherit;}
+.spartner p { width:90%; float: none; display: block; margin: 0px auto; padding: 0px; font-size: 16px; }
+
+@media only screen and (max-width: 767px){ 
+    .spartner img { width: 100%; }
+
+}

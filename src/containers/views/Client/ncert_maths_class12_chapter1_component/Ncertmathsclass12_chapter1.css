@@ -1,0 +1,5 @@
+.ncertItem h4 span { display: block; font-size: 13px; color: #FF8800; padding-top: 5px; }
+@media only screen and (max-width: 767px){ 
+    .ncertItem.left { width: 100%; margin: 0 0 35px 0; }  
+    
+}

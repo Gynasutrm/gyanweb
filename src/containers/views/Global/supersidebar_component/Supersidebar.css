@@ -1,0 +1,6 @@
+.sideMenuElm li { width: 100%; float: left; }
+.sideMenuElm li a { width: 100%; float: left; padding: 5px 15px; transition: .25s ease-in-out; -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; font-size: 16px; border-left: 5px solid transparent; }
+.sideMenuElm li a:hover,.sideMenuElm li a.active { background:#efefef; border-left: 5px solid rgb(92, 8, 8);}
+.sideMenuElm li a .fa:first-child { float: left; padding: 5px 10px 0 0; }
+.sideMenuElm li a .fright { padding: 5px 0 0 10px;}
+.sideMenuElm li .innerMenuElm li a { padding-left: 40px; }

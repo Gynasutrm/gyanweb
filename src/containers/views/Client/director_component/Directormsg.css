@@ -1,0 +1,13 @@
+.directorBox { padding: 50px 0; text-align: left; }
+.directorBox h3 { font-size: 26px; color: #000; padding-bottom: 20px; text-transform: inherit; }
+.directorBox p { width:100%; float: left; padding: 0px; margin: 0 0 10px 0; font-size: 14px; }
+.directorBox p a{ float: right; text-transform: uppercase; font-size: 16px; color: #1D90FF!important; font-weight:600; }
+.DirLogo img { margin-top:-40px; width: 30%; float: left; margin-left: 10%; }
+.DirLogo .rBoxdata { width: 60%; float: left; padding-right: 35px; }
+
+@media only screen and (max-width: 767px){ 
+    .DirLogo .rBoxdata,.directorBox h3 { width: 100%; text-align: center;}
+    .DirLogo img { width: 40%; margin: 0px auto; display: block; float: none; }
+    .directorBox p a { float: none; margin:10px auto 0; float: none; display: block; }
+    .DirLogo .rBoxdata { padding-right: 0px;}
+}

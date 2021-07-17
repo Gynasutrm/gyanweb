@@ -1,0 +1,10 @@
+.ncertItem.left { width: 28%; float: left; margin-right: 2%;}
+.ncertItem .ncertTitle { font-size: 14px; color: #230224; font-weight: 600; margin-bottom: 10px; text-transform: initial;}
+.ncertItem.left li { width: 100%; padding: 0px; margin: 0 0 10px 0; }
+.ncertItem.left li:last-child { margin-bottom: 0px;}
+.ncertItem.left li a { font-size: 13px; }
+
+@media only screen and (max-width: 767px){ 
+    .ncertItem.left { width: 100%; margin: 0 0 35px 0; }  
+    
+}

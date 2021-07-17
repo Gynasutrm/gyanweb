@@ -1,0 +1,23 @@
+.supportBox h3,.queryBox h3 { font-weight: 700; font-size: 28px; color: #000; }
+.supportBox p { font-size: 14px; }
+.supportMid { padding-top: 25px; width: 70%; margin: 0px auto; float: none; }
+.supportItem { width: 49%; float: left; text-align: center; }
+.supportItem:last-child { float: right; }
+
+.queryBox { margin-top: 35px; }
+.queryBox ul { margin-top: 20px; padding: 0 150px;}
+.queryBox li { line-height: 30px; padding: 15px 20px; margin-bottom: 15px; border-radius: 10px; background: #5C105E; color: #fff; font-size: 15px; }
+.queryBox li.one { background: #1C0224;}
+.queryBox li.two { background: #021024;}
+.queryBox li a { cursor: pointer; line-height: 20px; font-weight: 700; float: right; border-radius: 8px; font-size: 14px; color: #333!important; background: #F29423; padding: 5px 10px; }
+
+@media only screen and (max-width: 767px){ 
+    .supportBox h3, .queryBox h3 { font-size: 25px; }
+    .supportMid,.supportItem { width: 100%; }
+    .supportItem img { width: 100%; }
+    .supportItem:first-child { margin-bottom: 25px; }
+    .queryBox .pad_l_r_100,.queryBox ul { padding: 0px; }
+    .queryBox li { text-align: center; font-size: 14px; line-height: 22px; }
+    .queryBox li a { margin-top: 15px; display: block; float: none; }
+   
+}

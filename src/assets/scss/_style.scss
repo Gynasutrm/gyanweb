@@ -1,0 +1,15 @@
+@import "reset";
+@import "keyframes";
+@import "sidebar";
+@import "navbar";
+@import "common";
+.content-wrapper {
+  background: #e5f0f2;
+  padding: 1rem;
+  width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+.nomar0 .grid_20 { width: 20%; float: left; margin:0px!important; }
+.nomar0 .grid_20 .row_full,.nomar0 .row_full { width: 100%!important; float: left; }
+.nomar0 .grid_20 select { padding: 5px!important; height: 30px; }
+.nomar0 .grid_20 span.row_full,.nomar0 span.row_full { margin: 0px!important; padding-bottom: 5px!important;}
+.pad_b_5 { padding-bottom: 5px; }
+.pad_r_10 { padding-right: 10px; }
+.grid_49 { width: 49%; float: left; }
+.mar_b_15 { margin-bottom: 15px;}
+.pos_relative { position: relative;}
+.secElm:nth-child(2n){ float: right; }
+.rmvCls { position: absolute; top: 0px; right: 0px; z-index: 9999999; font-size: 12px; font-weight: 600; color:rgb(252, 0, 34)}
+.dropdown-content {z-index:999999999; }
+
+.questUlElm li { width: 50%; float: left; }
+.questUlElm li span { width: 50%; float: left; font-size: 12px; padding: 10px; text-align: left;}
+.questUlElm li span:first-child { font-weight: bold; }
+.questUlElm li span img { width: 100%; }
+
+.popupCntr { position: fixed; top: 0px; left: 0px; z-index: 99999; height: 100%; background: rgba(0,0,0,.7);}
+.popupCntr > div,.popupCntr .disp_flex { height: 100%; }
+.disp_flex { display: flex; justify-content: center; align-items: center;}
+.closeRemove { position: absolute; top: 5px; right: 5px; cursor: pointer; color: #777; }
+.midelmContent { width: 60%; border-radius: 5px; background: #fff; padding: 15px; text-align: center;}

@@ -1,0 +1,20 @@
+.grid_49 {width: 49%!important; float: left; }
+.position_rel { position: relative;}
+.mar_b_10 { margin-bottom: 10px; }
+.mar_t_t { margin-top: 5px;}
+.selectedCls em { cursor: pointer; display: inline-block; font-style: normal; font-size: 12px; border-radius: 3px; padding: 10px 15px; background: #00a9d4; color: #fff; margin: 8px 5px 5px 0; }
+.selectedCls em label { width: 100%; float: left; margin-bottom: 0px;}
+
+.selectedCls em label span { float: left; padding: 0px 5px 0 0px; line-height: 13px; }
+.selectedCls em label input { float: left; }
+
+.multiUlElm { position: absolute; top: 40px; left: 0px; z-index: 99; border-top: 1px solid #efefef; border-left: 1px solid #efefef; border-right: 1px solid #efefef; }
+.multiUlElm li { background: #efefef; cursor: pointer; width: 100%; float: left; padding: 5px; border-bottom: 1px solid #fff; font-size: 14px; color: #333;}
+.multiSelect { padding: 10px; border-radius: 4px; border: 1px solid #efefef; color: #333; cursor: pointer; }
+
+/*=========pop up css ==========*/
+.popupCntr { position: fixed; top: 0px; left: 0px; z-index: 99999; height: 100%; background: rgba(0,0,0,.7);}
+.popupCntr > div,.popupCntr .disp_flex { height: 100%; }
+.disp_flex { display: flex; justify-content: center; align-items: center;}
+.closeRemove { position: absolute; top: 5px; right: 5px; cursor: pointer; color: #777; }
+.midelmContent { width: 60%; border-radius: 5px; background: #fff; padding: 15px; text-align: center;}

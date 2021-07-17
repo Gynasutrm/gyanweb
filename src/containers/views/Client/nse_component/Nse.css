@@ -1,0 +1,29 @@
+.bgwhite { background: #fff; }
+
+.jeeBox.nseList ul:first-child { margin-bottom: 15px!important;}
+.jeeBox.nseList ul:first-child li:last-child { margin-right: 0px;}
+.jeeBox.nseList li { width: 32.4%; background:#F7EAF8; min-height: 280px; }
+.jeeBox.nseList li p { width: 100%!important; float: left!important; padding: 0 0 5px 0!important; margin: 0px!important;}
+.jeeBox.nseList li .fa { padding-top: 8px; width: 7px; float: left; color: #FF7003; font-size: 10px; }
+.jeeBox.nseList li .rightdx { font-style: normal; text-align: left; padding-left: 10px; width: 95%; float: left; color: #000!important; font-size: 13px; letter-spacing: 0.11px; }
+.jeeBox.nseList li span { padding: 0 10px; color: #fff; top: 12px; letter-spacing: 0.13px; font-size: 12px; text-align: left; left: 0px!important; width: 68px; border-radius: 0px; height: 30px; line-height: 25px; background:#230224; }
+.jeeBox.nseList ul li { padding-top: 55px;}
+.jeeBox.nseList .padMid li { width: 357px!important; }
+.padMid { padding: 0 16%; }
+ .jeeBox.nseList li span em { width: 10px; height: 26px; position: absolute; top: 0%; right: -16px; z-index: 2; border-top: 11px solid transparent; border-left: 17px solid #230224; border-bottom: 11px solid transparent; }
+
+
+.imporArea { padding-top: 25px; text-align: center; }
+.imporArea h2 { font-size: 26px; color: #000; padding: 0 200px; }
+.imporArea h2 span { font-size: 16px; color: #000; padding-top: 5px;}
+
+.jeenewBox.nseBelm { margin-top: 35px;}
+.jeenewBox.nseBelm li span:first-child { width: 60%; }
+.jeenewBox.nseBelm li span { width: 40%; }
+
+.eligibalCntr { padding: 35px 0; font-size: 14px; color: #000; }
+.nseMeritBox { width: 49%; float: left; padding-right: 30px; }
+.nseMeritBox.right { padding-left: 30px; padding-right: 0px; }
+.nseMeritBox li,.nseMeritBox p { letter-spacing: 0.11px; }
+.nseMeritBox h3 { padding: 10px 0; font-size: 18px; font-weight: 700; color: #000; text-transform: inherit; }
+.nseMeritBox li { padding-bottom: 10px; }

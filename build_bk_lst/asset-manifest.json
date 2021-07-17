@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3aaf4c6.chunk.css",
+    "main.js": "/static/js/main.e1c43c64.chunk.js",
+    "main.js.map": "/static/js/main.e1c43c64.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc85cbe0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc85cbe0.js.map",
+    "static/css/2.8047ae38.chunk.css": "/static/css/2.8047ae38.chunk.css",
+    "static/js/2.c169b0cb.chunk.js": "/static/js/2.c169b0cb.chunk.js",
+    "static/js/2.c169b0cb.chunk.js.map": "/static/js/2.c169b0cb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.8047ae38.chunk.css.map": "/static/css/2.8047ae38.chunk.css.map",
+    "static/css/main.d3aaf4c6.chunk.css.map": "/static/css/main.d3aaf4c6.chunk.css.map",
+    "static/js/2.c169b0cb.chunk.js.LICENSE.txt": "/static/js/2.c169b0cb.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/Ubuntu-Regular.c5dacf61.ttf",
+    "static/media/StudentPathshalaSidebar.css": "/static/media/cd-search.595e79ca.svg",
+    "static/media/Home.scss": "/static/media/testi_3.8c199f5c.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/materialdesignicons.min.css": "/static/media/materialdesignicons-webfont.bfd0d906.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc85cbe0.js",
+    "static/css/2.8047ae38.chunk.css",
+    "static/js/2.c169b0cb.chunk.js",
+    "static/css/main.d3aaf4c6.chunk.css",
+    "static/js/main.e1c43c64.chunk.js"
+  ]
+}

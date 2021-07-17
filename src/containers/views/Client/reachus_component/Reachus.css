@@ -1,0 +1,31 @@
+.reachusCntr { padding-top: 50px; }
+.reachusCntr h3 { font-size: 35px; color: #000; text-transform: initial; font-weight: 700; }
+.reachArea { margin-top: 50px; }
+.reachArea li { width: 33.3%; float: left; }
+.reachArea li.mid { border-right: 1px solid #efefef; border-left: 1px solid #efefef; }
+.reachArea li span { width: 48px; height: 48px; display: block; float: none; margin: 0px auto 20px; }
+.reachArea li .icon { background: url('../../../../assets/images/reachUs_icon1.png') no-repeat;}
+.reachArea li .icon1 { background: url('../../../../assets/images/reachUs_icon2.png')no-repeat;}
+.reachArea li .icon2 { background: url('../../../../assets/images/reachUs_icon3.png')no-repeat;}
+
+.contectBg { width: 50%; margin: 0px auto; display: block;}
+.contectBg .form-group { width: 49%; float: left; margin-bottom: 15px; }
+.contectBg .form-group:nth-child(even) { float: right; }
+.contectBg .form-group .form-control{ height: 45px; line-height: 45px;  border-radius: 20px; background: #EFEFEF; color: #8B8B8B; }
+.mar_b_20 { margin-bottom: 40px;}
+.contectBg .form-group.fullwdth { width: 100%; }
+.contectBg .form-group.fullwdth .form-control { height: auto;}
+.subreachus { float: right; min-width: 250px; border-radius: 6px; color: #fff; background: #1D8EFC; padding: 10px 15px; border: none;}
+.custChk { border-radius: 6px; padding: 10px 15px; width: 50%; float: left; background: #EFEFEF;}
+.custChk label { margin-bottom: 0px; }
+
+@media only screen and (max-width: 767px){ 
+    .reachusCntr h3 { font-size: 25px; }
+    .reachArea li { padding: 15px; border-radius:6px; width: 100%; border: none!important; margin-bottom: 25px;}
+    .reachArea li p { margin-bottom: 5px;}
+    .reachArea li p:last-child { margin-bottom: 0px;}
+    .reachArea li span { margin-bottom: 10px;}
+    .reachArea li:hover { background: #efefef;}
+    .contectBg .form-group,.contectBg,.custChk,.subreachus { width: 100%; }
+    .custChk { margin-bottom: 15px;}
+}

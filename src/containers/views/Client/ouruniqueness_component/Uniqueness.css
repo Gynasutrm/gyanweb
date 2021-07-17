@@ -1,0 +1,33 @@
+.uniqueContent {padding: 50px 0; text-align: center; }
+.uniqueContent h3 {font-size: 26px; color: #000; text-transform: inherit; font-weight: 700; padding-bottom: 50px; }
+.uniqueContent p { width:100%; float: left; padding: 0px; margin-top: 10px; }
+.uniqueContent img { float: none; margin: 0px auto; display: block; }
+
+/*.imgtag { display: flex; justify-content: center; align-items: center; position: relative; }
+.uniqueImg { width: 25%; }
+.smartLerBox { width: 360px; float: left; margin: 0px; padding: 0px; }
+.smartLerBox li { margin-bottom: 38px; text-align: left; position: relative; padding: 15px; width: 100%; float: left; background: #e6edf5; border-radius: 4% 25% 25% 4% / 4% 45% 45% 4%; }
+.smartLerBox li h4 { width: 80%; text-transform: inherit; float: left; font-size: 15px; color: #000; font-weight: 700; margin: 0px; padding: 0px; }
+.smartLerBox li p { width: 80%; float: left; padding-top: 5px; padding-bottom: 0px; margin: 0px; font-size: 13px; color: #373c42; }
+.smartLerBox li .icon { width: 69px; height: 69px; position: absolute; top: 50%; right: 13px; z-index: 2; transform: translateY(-50%)!important; -moz-transform: translateY(-50%)!important; -webkit-transform: translateY(-50%)!important;  }
+.smartLerBox li .icon img { width: 100%; }
+.smartLerBox li .directionIcon { width: 10px; height: 10px; position: absolute; bottom: 40%; right: -16px; z-index: 2; border-top: 8px solid transparent; border-left: 17px solid #e6edf5; border-bottom: 8px solid transparent; }
+.smartLerBox li.leftMar { margin-left: -40px;}
+.smartLerBox.right li:first-child .icon,.smartLerBox.right li .icon.max { left: 4%; }
+.smartLerBox li .directionIcon.first { bottom: 25%; transform: rotate(30deg)!important; -webkit-transform: rotate(30deg)!important; -moz-transform: rotate(30deg)!important; right: -10px; }
+.smartLerBox li .directionIcon.last { bottom: 47%; transform: rotate(-30deg)!important; -webkit-transform: rotate(-30deg)!important; -moz-transform: rotate(-30deg)!important; right: -13px; }
+
+.smartLerBox li:last-child,.smartLerBox.right li:last-child { margin-bottom: 0px;}
+
+.smartLerBox.right { float: right; }
+.smartLerBox.right li { margin-bottom: 20px; border-radius: 25% 4% 4% 25% / 45% 4% 4% 45%; text-align: right; }
+.smartLerBox.right li.first { border-radius: 19% 4% 4% 19% / 49% 4% 4% 44%; }
+
+.smartLerBox.right li h4 { float: right; }
+.smartLerBox.right li p { float: right; }
+.smartLerBox.right li .icon { left: 12px; }
+.smartLerBox.right li .dirLeft { width: 10px; height: 10px; position: absolute; bottom: 40%; left: -16px; z-index: 2; border-top: 8px solid transparent; border-right: 17px solid #e6edf5; border-bottom: 8px solid transparent; }
+.smartLerBox.right li.rightMar { margin-left: 40px;}
+.smartLerBox.right li .dirLeft.first { bottom: 25%; transform: rotate(-30deg)!important; -webkit-transform: rotate(-30deg)!important; -moz-transform: rotate(-30deg)!important; left: -12px; }
+.smartLerBox.right li .dirLeft.last { bottom: 47%; transform: rotate(30deg)!important; -webkit-transform: rotate(30deg)!important; -moz-transform: rotate(30deg)!important; left: -13px; }
+*/

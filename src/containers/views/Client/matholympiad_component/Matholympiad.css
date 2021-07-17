@@ -1,0 +1,22 @@
+.olympiadItem { width: 50%; float: left; margin-top: 25px; }
+.olympiadItem:nth-child(2n) { padding-left: 50px; }
+.olympiadItem .levelTag { background:#F29423; }
+.olympiadItem .levelTag em {border-left: 17px solid #F29423;}
+.pad_b_50 { padding-bottom: 50px; }
+.pad_b_15 { padding-bottom: 15px; }
+
+.highlightBox { width: 50%; float: left; }
+.highlightBox:last-child { padding-left: 50px; }
+
+.olymregisBox.top { background: none; margin-top:0px; color: #000; }
+.olymregisBox.top h2 { color: #000; }
+.olymregisBox { padding: 50px 0; margin-top: 50px; color: #fff; font-size: 14px; background: linear-gradient(to right, #3E0340 , #4D086E); }
+.olymregisBox .leftJeeBox { width: 60%; padding-right: 25px; }
+.olymregisBox h2 { font-size: 26px; color: #fff; padding-bottom: 10px; text-transform: inherit; line-height: 34px; }
+.olymregisBox ul { padding-top: 10px;}
+.olymregisBox li { padding-bottom: 10px; }
+.olymregisBox li .fa { padding-Top: 7px; font-size: 10px; color: #fff; padding-right: 10px; float: left; }
+.olymregisBox li span { width: 96%; float: left; }
+.olymregisBox img { position: absolute; right: 0px; z-index: 2; }
+.olymsection { width: 40%; }
+.olymsection li span:last-child { text-align: left;}

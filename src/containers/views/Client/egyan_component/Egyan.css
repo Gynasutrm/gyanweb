@@ -1,0 +1,17 @@
+.egyanCntr { padding: 50px 0; background: #3e0340; }
+.egyanBox { width: 50%; float: left; font-size: 14px; color: #fff; }
+.egyanBox p:first-child { margin-bottom: 0px;}
+.egyanBox h2 { font-size: 50px; font-weight: 400; color: #fff; text-transform: inherit;  }
+.egyanBox h2 span { font-weight: 700; }
+.egyanBox a { float: left; margin-top: 10px; background: #EF8D1B; border-radius: 6px; padding: 6px 10px; }
+
+.egyanBox:last-child { width:50%; float: left; padding-left: 50px; }
+.egyanBox img { border-radius: 6px; background: #fff; box-shadow: 0px 0px 69px #6d4b0729; }
+
+.egyanApp { padding: 50px 0; }
+.egyanApp h3 { font-size: 26px; font-weight: 700; color: #000; text-transform: inherit;  }
+.egyanApp ul { margin-top: 35px; }
+.egyanApp li { border-radius: 6px; min-height: 290px; width: 23%; float: left; margin: 0 15px 15px 0; padding: 15px; transition:.25s ease-in-out; }
+.egyanApp li:nth-child(4n) { margin-right: 0px;}
+.egyanApp li span { margin-bottom: 25px; display: block; }
+.egyanApp li:hover { background: #fff; box-shadow: 0px 0px 69px #6d4b0729;}

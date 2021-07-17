@@ -1,0 +1,23 @@
+.ncertBg { background: #F2EEF2;}
+.ncertCntr { padding: 15px 0; }
+.ncertImgBox { position: relative; height: 150px; border-radius: 6px; background: #000000A1; }
+.ncertImgBox h2 { position:  absolute; bottom: 20px; left: 30px; z-index: 2; font-size: 30px; color: #fff; text-transform: initial; }
+.ncertImgBox img { width: 100%; height: 100%; border-radius: 6px; }
+.pad_b_50 { padding-bottom: 50px; }
+.ncertItem { padding: 35px 20px; border-radius: 3px; color: #000; width: 70%; float: left; background: #fff; }
+.ncertItem h4 { font-weight: 600; text-transform: initial; font-size: 20px; margin-bottom: 15px; }
+.ncertItem p { font-size: 14px; }
+.ncertItem .ncertSolLink { margin-bottom:  15px!important;}
+.ncertItem li { width: 50%; float: left; margin:  0 0 7px 0; padding-right:  15px; }
+.ncertItem li a { float: left; font-size: 14px; color: #FF6106!important; cursor: pointer; }
+.ncertItem ul.last li { margin-bottom:  10px; }
+.ncertItem ul.last li a { font-size: 13px; }
+.ncertItem ul.last li a .fa { font-size: 10px; }
+
+@media only screen and (max-width: 767px){ 
+    .ncertItem { width: 100%; }
+    .ncertImgBox h2 { font-size: 20px; }
+    .ncertItem h4 { font-size: 18px; }
+    .ncertItem li { width: 100%; padding: 0px!important; margin: 0 0 10px 0!important;}
+    
+}

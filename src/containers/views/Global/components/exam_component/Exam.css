@@ -1,0 +1,26 @@
+.examBox { min-height: 450px; }
+.pad_r_230 { padding-right: 230px;}
+.pos_relative { position: relative;}
+.bg_white { background: #fff;}
+.ansBox { padding: 20px; border-radius: 5px; min-height: 420px; }
+.pos_top { position: absolute; top: -43px; left: -35px; z-index: 99;}
+.mar_t_33 { margin-top: 33px; }
+.fix_wd { width: 81.7%; }
+.pad_a_10 { padding: 5px 10px; height: 31px; line-height: 20px; }
+.no_marg { margin: 0px;}
+.noBox { font-size: 12px; }
+.timeCount { width: 20%; position: absolute; top: 5px; left: 40%; z-index: 33;}
+.timeCount strong { font-weight: 700!important; }
+.studentDtlsBox { width: 241px; position: absolute; top: 70px; right: 0px; z-index: 99; border-left: 1px solid #fff;}
+.studentDtlsBox .title { text-align: center; margin-bottom: 0px; font-size: 11px; text-transform: initial; color: #fff; background: #617B8C; box-shadow: 0px 3px 6px #0000000D; padding: 10px 5px; }
+.chooseQues { padding: 15px; background: #fff; color: #fff; font-size: 14px; }
+.selQElm { color: #617B8C; }
+.quesList { margin-top: 10px;}
+.quesList li { float: left; margin: 0 5px 5px 0;}
+.quesList li a { float: left; border-radius: 3px; width: 30px; height: 30px; line-height: 30px; text-align: center; background: #efefef; color: #333; }
+
+.quest_note li { width: 100%; float: left; margin: 0 0 15px 0;}
+.quest_note li a { float: left; width: 100%; font-size: 13px;}
+.quest_note li a span:last-child { width: 84%; padding-top: 3px; float: left;}
+.quest_note li:last-child a span:first-child { margin-top: 6px;}
+.quest_note li a span:first-child { width: 25px; margin-right: 8px; float: left; height: 25px; font-size: 11px; border-radius: 100%; text-align: center; color: #fff; line-height: 25px;}

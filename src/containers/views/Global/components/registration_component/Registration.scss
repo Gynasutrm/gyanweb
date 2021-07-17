@@ -1,0 +1,60 @@
+.grid_30 {
+  width: 30% !important;
+  float: left;
+}
+.middleboxArea {
+  width: 100%;
+  float: left;
+}
+.grid_33 {
+  width: 33%;
+  float: left;
+}
+.grid_100 {
+  width: 100%;
+}
+.errTag {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+}
+.text-right {
+  float: right;
+}
+.table {
+  table-layout: fixed;
+}
+.table th,
+.table td {
+  word-break: break-all;
+  white-space: normal !important;
+  padding: 10px 5px !important;
+}
+.userviewdata {
+  .user-img {
+    .default-profile-image {
+      font-size: 128px;
+    }
+    img {
+      border: 1px solid #ddd;
+      border-radius: 50%;
+    }
+  }
+  ul {
+    li {
+      width: 50%;
+      float: left;
+      margin-bottom: 10px;
+      b {
+        width: 100%;
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      span {
+        width: 100%;
+        float: left;
+      }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+.preloader{position:fixed;top:0;width:100%;height:100%;z-index:9999;background-color:#fff;}
+.loader{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);}
+.loader .spinner{animation:rotate 2s linear infinite;z-index:2;width:50px;height:50px;}
+.loader .spinner .path{stroke:#51be78;stroke-linecap:round;animation:dash 1.5s ease-in-out infinite;}
+
+
+#scroll-top{position:fixed;right:0;bottom:80px;background-color:#fff;color:#7f8897;font-size:24px;z-index:9;width:40px;height:35px;line-height:30px;-webkit-border-radius:30px 0 0 30px;-moz-border-radius:30px 0 0 30px;border-radius:30px 0 0 30px;text-align:center;cursor:pointer;-webkit-box-shadow:0 10px 40px rgba(14, 16, 48, 0.06);-moz-box-shadow:0 10px 40px rgba(14, 16, 48, 0.06);box-shadow:0 10px 40px rgba(14, 16, 48, 0.06);border:1px solid rgba(127, 136, 151, 0.3);border-right:0;padding-left:4px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-ms-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
+#scroll-top:hover{background:#1e90ff;border-color:#1e90ff;color:#fff;}
+ul { padding-left: 0px;}
+.transition { transition: .25s ease-in-out; -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; }
+.headerCntr { background: #230224; position:relative; z-index:1023;}
+a { transition: .25s ease-in-out; -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; }
+section,header,footer { width: 100%!important; float: left;}
+.pad_l_r_35 { padding: 0 35px;}
+.left_menu { width: 46%; float: left; padding-top: 20px; transition: .25s ease-in-out; -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; }
+.left_menu.right { float: right; }
+
+.pos_rel { position: relative; }
+.logoBox { width: 8%; float: left; padding: 7px 0; transition: .25s ease-in-out; -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out;}
+.logoBox img { width: 100%; float: left; }
+
+ul { margin: 0px; }
+.menuBox { width: 100%; float: left; }
+.subMenuParent { width: 100%; float: left; }
+.subMenuParent li { width: 50%; position: relative; float: left; text-align: center; }
+.subMenuParent li a { display: block; padding: 3px 15px; color: #fff; font-size: 14px; margin-bottom: 5px; }
+.subMenuParent li a:hover { color: #daa521; }
+.subMenuParent li a.bottomM { margin-bottom: 0px; padding-bottom: 27px;}
+
+.subMenuBox,.subMenuBox1,.subMenuBox2 { width:200px; display: none; background: #230224; border-top: 5px solid #daa521; }
+.subMenuBox { padding: 10px 0 5px 0; position: absolute; top: 50px; z-index: 99; left: 13%;  }
+.subMenuBox li { width: 100%; float: left; text-align: left;  padding: 0px; position: relative; }
+.subMenuBox li a,.subMenuBox1 li a,.subMenuBox2 li a { width:100%; float: left; padding: 5px 15px!important; border-left: 5px solid transparent; }
+.subMenuBox li a:hover,.subMenuBox1 li a:hover,.subMenuBox2 li a:hover { color: #daa521; border-left: 5px solid #daa521; }
+.subMenuParent li:hover .subMenuBox { display: block; }
+
+.subMenuParent li.menuBotfix:hover .subMenuBox { top: 32px; }
+
+.subMenuParent li .subMenuBox li:hover .subMenuBox1,.subMenuParent li .subMenuBox li .subMenuBox1 li:hover .subMenuBox2 { display: block; }
+.subMenuBox1,.subMenuBox2 { padding: 10px 0 5px 0; position: absolute; top: -20%; left: 100%; }
+
+.fixed-nav .headerFix { position:fixed; top:0; width:100%; background: #230224; -webkit-box-shadow:0 3px 6px 0 #58595b; -moz-box-shadow:0 3px 6px 0 #58595b; box-shadow:0 3px 6px 0 #58595b; z-index: 9999999999!important;}
+.fixed-nav .headerFix .left_menu { padding-top: 15px; transition: .25s ease-in-out; -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; }
+.fixed-nav .headerFix .logoBox { transform: scale(0.8); padding: 9px 0; margin-top: -8px; }
+
+.leftFix { width: 120px; transform: translateX(-80px); border-top-right-radius: 5px; border-bottom-right-radius: 5px; background: linear-gradient(to right, #daa521 50%,#230224 50%); background-size: 200% 100%; background-position: right bottom; transition: all .5s ease-out; position: fixed; top: 40%; left: 0px; z-index: 99; }
+.leftFix a {  padding: 10px; width: 100%; float: left; text-align: center; color:#fff; font-size: 14px;  }
+.leftFix a .fa { float: right; font-size: 20px; padding-left: 10px; }
+.leftFix a:hover { color: #fff;  }
+.leftFix a:hover .fa { color: #fff; }
+.leftFix:hover { transform: translateX(0px); background-position: left bottom; }
+
+.signIn { margin-left: 95px; width: 90px; line-height: 22px; text-align: center; background: #00a9d4; color: #fff; padding: 5px 10px; border-radius: 4px; }
+.signIn:hover { background: #daa521; color: #fff!important; }
+
+.rightFix { width: 220px; transform: translateX(177px); position: fixed; top: 40%; right: 0px; z-index: 99; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background: linear-gradient(to right, #daa521 50%,#230224 50%); background-size: 200% 100%; background-position: right bottom; transition: all .5s ease-out; }
+.rightFix a { line-height: 22px;   padding: 10px; width: 100%; float: left; text-align: center; color:#fff; font-size: 13px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom: 0px;   }
+.rightFix a img { float: left; width: 25px; }
+.rightFix a:hover { color: #fff; }
+.rightFix:hover { transform: translateX(0px); background-position: left bottom; }
+
+.mobileIcon,.MMenuBox { display: none; }
+
+.mobileMenu { padding: 20px!important; background: rgba(0,0,0,.9); height: auto; transition:.25s ease-in-out; -moz-transition:.25s ease-in-out; -webkit-transition:.25s ease-in-out; border-bottom-left-radius: 10px; overflow-y: auto; padding: 0; position: fixed; right: -100%; top: 0; width: 250px; z-index: 999999; }
+.mobileMenu li { margin: 6px; width: 100%; float: left; padding: 0px!important; }
+.mobileMenu li a { display: block; font-size: 14px; color: #fff; text-transform:inherit; text-decoration: none; }
+.mobileMenu li a:hover{ color: #daa521; }
+
+
+/*======= Dark box star =========*/
+.blackBox { width: 100%; float: left; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 9999999; background: rgba(0,0,0,.6);}
+.midbox { position: relative; display: flex; height: 100%; justify-content: center; align-items: center; }
+
+.successBox { padding: 20px 0px; position: relative; width: 400px; float: left; background: #00a9d4; border-radius: 5px; box-shadow: 0 1px 8px 4px rgba(0, 0, 0, 0.36);}
+.successBox h5 { font-size: 15px; text-align: center; text-transform: initial; color: #fff; line-height: 20px; padding: 5px 15px 0 15px; margin: 0px; }
+.faclose { width:25px; height:30px; line-height: 30px; background:#1E90FF; border-top-left-radius: 23px; border-top-right-radius: 23px; text-align: center; position: absolute; top: -30px; right: 13px; cursor: pointer; color: #fff; z-index: 99; }
+
+.quickContact { min-height: 440px; border-radius: 5px; position: relative; width: 60%; float: left; background: #fff; box-shadow: 0 1px 8px 4px rgba(0, 0, 0, 0.36); }
+.signUpLeft { background: #1E90FF; border-top-left-radius: 6px; border-bottom-left-radius: 6px;}
+.signUpLeft { text-align: center;}
+.signUpRight,.signUpLeft { min-height: 440px; width: 50%; padding: 20px; float:left; }
+.signUpRight h3 { text-align: center; text-transform: inherit; width: 100%; float: left; padding: 0; font-size: 28px; color: #000; font-weight: 700; }
+.signUpRight h3 span { font-weight:600; font-size: 14px; display: block; color: #1E90FF; padding-top: 5px; }
+.signUpRight h3 span.welcome { color: #000; }
+.signUpRight .form-group { width: 48.2%; float: left; margin: 0 10px 15px 0; }
+
+.signUpRight .loginBox .form-group { width: 100%; float: left; margin-right:0px; margin-bottom: 15px;  }
+.signUpRight .loginBox .lastelm { margin-bottom: 5px!important; }
+
+
+.signUpRight .form-group:nth-child(even) { margin-right: 0px; }
+.signUpRight .lastelm { width: 100%!important; float: left; margin-right:0px; margin-bottom: 5px; }
+.signUpRight .btn { padding: 12px 25px; color: #fff; font-size: 17px; border-radius: 6px; color: #fff; background: #230224; }
+.signUpRight .btn:hover { color: #fff; }
+.signUpRight .form-control,.signUpLeft .form-control:focus { box-shadow:none; background: #fff; border: 1px solid #A7A7A7; height: 40px; line-height: 40px; padding: 10px!important; border-radius: 7px; }
+
+.errorMsg { max-width: 350px; color: #f21e08; padding: 0; margin-top: 2px; font-size: 11px; font-weight: 300; margin-bottom: 0px!important; }
+.signinLink p { margin: 0px; text-align: center; padding: 0 19px; width: 100%; float: left; font-size: 13px; color: #333; }
+.signinLink p a { color: #1e90ff; }
+.userExist { padding-top: 18px; text-align: center; font-size:13px!important; margin: 0px; color: #ee4f05; }
+
+.acessBox { padding:10px 0; }
+.acessBox li { display: inline-block; margin-right: 25px; }
+.acessBox li a { border: 3px solid #6A8EB1; text-align: center; width: 45px; height: 45px; border-radius: 100%; float: left; padding: 5px; }
+.acessBox li a img { width: 80%; }
+.acessBox li a:hover,.acessBox li a.active { background: #230224!important; border: 3px solid #1E90FF; }
+.stdLogin { font-size: 15px; color: #1E90FF; text-transform: capitalize;}
+a { cursor: pointer!important;}
+/*======= Dark box star =========*/
+
+
+@media only screen and (max-width: 767px){ 
+    .mobileIcon { display: block; position: absolute; top: 15px; right: 15px; z-index: 9; font-size: 32px; color: #fff; cursor: pointer; }
+    .mobileMenu.active { right: 0%; }
+    .mmClose { padding: 4px 6px; transition:.25s ease-in-out; -moz-transition:.25s ease-in-out; -webkit-transition:.25s ease-in-out; background: #fff; border-radius: 4px; position: absolute; right: 15px; top: 15px; color: #230224; cursor: pointer; font-size: 20px; }
+    .mmClose:hover { background: #230224; color: #fff;}
+
+    .left_menu { display: none!important;}
+    .logoBox { width: 20%!important; }
+    .signUpLeft,.trendingCntr { display: none;}
+    .signUpRight { width: 100%; }
+    .signUpRight .form-group { width: 100%!important; margin: 0 0 10px 0!important;}
+    .quickContact { width: 100%; }
+    .blackBox { position: absolute; top: 155px; }
+    .loginBox .formBox { padding-top: 20px!important;}
+    .signUpRight,.quickContact {min-height: auto!important; }
+}

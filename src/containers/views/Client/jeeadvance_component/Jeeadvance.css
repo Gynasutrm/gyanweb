@@ -1,0 +1,14 @@
+.conductItem { width: 48%; float: left; }
+.conductItem.right { float: right; }
+.conductBox .jmainBtn { width: 70%!important; }
+.conductBox .jcondct { padding-top: 10px; text-align: center; padding-top: 10px; font-size: 14px; color: #2B2B2B; letter-spacing: 0.11px; }
+.conductItem .jeenewBox { margin-top: 15px!important; }
+.conductItem .jeenewBox .fourElm li span { width: 25%!important; }
+.conductItem .jeenewBox .midTable { width: 100%!important; min-height: 285px; }
+.conductItem .fourElm.midTable { margin-top: 45px; }
+.midsetBox { padding: 0 142px; display: flex; }
+.midsetBox .tableBox { width: 47%!important; }
+.midsetBox .tableBox li span { color: #DF6C06;}
+
+.botIcon { width: 154px; height: 25px; position: absolute; bottom: -22px; left: 50%; z-index: 2; }
+.botIcon.last { width: 13px; height: 13px; bottom: 0px; }

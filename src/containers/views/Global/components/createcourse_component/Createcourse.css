@@ -1,0 +1,9 @@
+.mar_b_15 { margin-bottom: 15px; }
+.mar_b_20 { margin-bottom: 20px; }
+.mar_t_5 { margin-top: 5px;}
+.row_full { width: 100%; float: left; }
+.bgcol { color: #fff; background: #01172A;}
+.padwar { padding: 5px 15px; text-transform: initial;}
+.mar_r_15 { margin-right: 15px;}
+.adtopic .custBtn { padding: 10px 20px!important; }
+.adtopic span { width: 25%; float: left; padding: 10px 0; color: #656565; font-size: 13px; }

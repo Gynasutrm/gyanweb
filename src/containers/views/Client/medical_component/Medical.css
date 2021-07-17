@@ -1,0 +1,38 @@
+.medicalTagarea { padding: 70px 0 150px 0; color: #fff; font-size: 17px; background: linear-gradient(to right, #3E0340 , #4D086E); }
+.medicalTagarea h2 { text-transform: initial; font-size: 48px; color: #fff; }
+
+.medicalBox { padding: 50px 0; }
+.disp_flex { display: flex; justify-content: center; align-items: center;}
+.medicalItem { width: 70%; float: left; margin: -170px 0 0 0; border-radius: 10px; background: #fff; padding: 15px; }
+.collageRankList { padding: 15px; margin-bottom: 20px; border-radius: 4px; box-shadow: 0px 0px 38px #7A047E29;}
+.collageRankList:last-child { margin-bottom: 0px;}
+.rankList { width: 83%; float: left; }
+.rankList:first-child { width: 12%; float: left; margin-right: 10px; }
+.rankList .rank { padding: 5px 15px; font-size: 13px; color: #fff; border-radius: 3px; background: #F29423;}
+
+.colrankTitle { margin-bottom: 10px; }
+.collageName { margin-top:-5px; font-size: 15px; color: #400445; font-weight: 700; }
+.collageInfo { font-size: 12px; color: #5D5D5D; font-weight:600; position: relative; }
+.collageInfo .fa { color: #5D5D5D; font-size: 12px; padding-left: 5px;}
+.collageInfo .infoHover { background: #efefef; color: #333; display: none; border-radius: 4px; padding: 5px 10px; font-size: 13px; text-align: center; position: absolute; top: 0px; left: 100%; z-index: 3;}
+.collageInfo:hover .infoHover { display: block;}
+
+.tlrList { background: #F7F0F7; list-style: none; margin-bottom: 10px;}
+.tlrList li { width: 100%; float: left; font-size: 12px; }
+.tlrList li span:first-child,.tlrList li span:nth-child(2) { width: 15%; }
+.tlrList li span { padding: 6px; width: 23%; float: left; text-align: center; border-right: 1px solid #dfcddf; }
+.tlrList li span:last-child { border: none; }
+.tlrList li span strong { font-weight: 600; color: #000000; }
+.tlrList li:first-child span {  border-bottom: 1px solid #dfcddf; }
+
+.collageCity span:first-child { width: 30%; }
+.collageCity span { font-weight: 600; width: 23%; float: left; color: #420350; font-size: 12px; }
+
+@media only screen and (max-width: 767px){ 
+    .medicalTagarea h2 { font-size: 30px; }
+    .medicalItem,.rankList:first-child,.rankList { width: 100%; }
+    .rankList:first-child { margin-bottom: 15px; }
+    .collageName { font-size: 14px; }
+    .collageCity span { width: 100%!important; margin: 0 0 5px 0;}
+
+}

@@ -1,0 +1,106 @@
+.disp_flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid_75 {
+	width: 75% !important;
+	float: left;
+}
+.pad_t_50 {
+	padding-top: 50px;
+}
+.grid_20 {
+	width: 20% !important;
+	float: left;
+	margin-left: 5%;
+}
+.mar_t_35 {
+	margin-top: 35px;
+}
+.custBtn {
+	padding: 15px 5px !important;
+	text-transform: initial;
+	font-size: 15px !important;
+}
+.middleboxArea {
+	width: 100%;
+	display: block;
+	background: #fff;
+	padding: 25px;
+	border-radius: 5px;
+	margin-top: 1rem;
+}
+.middleboxArea h3 {
+	font-size: 13px;
+	text-transform: initial;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.detailsList li {
+	width: 100%;
+	float: left;
+	border-left: 1px solid #efefef;
+}
+.detailsList li:first-child span {
+	background: #efefef;
+	font-weight: bold;
+}
+.btnpad {
+	padding: 8px 10px !important;
+}
+.detailsList li span {
+	width: 33.3%;
+	float: left;
+	min-height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+	padding: 5px;
+	font-size: 13px;
+	text-align: center;
+}
+.detailsList .loaderBox {
+	padding-top: 10px;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #00abd7;
+}
+.detailsList .loaderBox .fa {
+	font-size: 40px;
+}
+.detailsList .loaderBox em {
+	font-style: normal;
+	padding-left: 10px;
+}
+.listBox {
+	min-height: 50px;
+}
+.addstrm {
+	float: left;
+	margin-top: 5px;
+	font-size: 12px;
+}
+a:hover {
+	text-decoration: none;
+}
+.errTag {
+	width: 75%;
+	float: left;
+	transition: 0.25s ease-in-out;
+	-webkit-transition: 0.25s ease-in-out;
+	-moz-transition: 0.25s ease-in-out;
+	text-align: center;
+	font-size: 12px;
+	padding: 5px;
+	font-weight: 700;
+	color: rgb(133, 14, 14);
+	background: #efefef;
+	border-radius: 3px;
+	margin-bottom: 0px;
+}

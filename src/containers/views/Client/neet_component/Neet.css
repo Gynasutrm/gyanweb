@@ -1,0 +1,89 @@
+.neetCntr { padding-top: 45px; }
+.neetBox { width: 22%; float: left; transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -webkit-transition: .25s ease-in-out; }
+.neetTab li { width: 100%; float: left; transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -webkit-transition: .25s ease-in-out; cursor: pointer; font-weight: 500; font-size: 14px; color: #000; padding: 10px; border-bottom: 1px solid #efefef; }
+.neetTab li:hover { background: #efefef; color: #333; }
+.neetBox.fixCntr { position: fixed; top: 125px; z-index: 99; background: #fff; width: 235px; box-shadow: 0px 0px 69px #6d4b0729; }
+
+.neetBox.right { width: 73%; float: right; }
+
+.neetTitle h2 { font-size: 26px; font-weight: 700; color: #000; padding: 0px; margin: 0 0 15px 0; }
+.neetTitle p { font-size: 14px; letter-spacing: 0.11px; }
+.neetTitle p a { color: #FF7003!important; }
+
+.neetFacts { padding: 15px 0; margin-bottom: 15px; border-bottom: 1px solid #efefef; }
+.neetFacts li { width: 31.2%; float: left; margin-right: 25px; text-align: left; }
+.neetFacts li:last-child { margin-right: 0px; }
+.neetFacts li h3 { padding-top: 15px; width: 100%; float: left;  color: #230224; font-size: 16px; line-height: 22px; letter-spacing: 0.13px; }
+.neetFacts li span { float: left; width: 50px; height: 50px; background: #1D8EFC; line-height: 43px; text-align: center; border-radius: 100%;  }
+.neetFacts li span img { width: 50%; }
+
+.neetCriteria { padding: 15px 0; margin-bottom: 30px; }
+.neetCriteria h2 { font-size: 26px; font-weight: 700; color: #000; padding: 0px; margin: 0 0 40px 0;}
+.neetCriteria .qulImage { width: 250px; float: left; }
+.neetCriteria .qulImage.right { width: 68%; float: right; padding-left: 25px; }
+.neetCriteria .qulImage h4 { font-size: 20px; font-weight: 500; color: #230224; padding: 0px; margin: 0 0 15px 0; }
+.neetCriteria .qulImage li { width:100%; float: left; font-size: 15px; color: #434343; letter-spacing: 0.13px; padding-bottom: 10px; }
+.neetCriteria .qulImage li:last-child { padding-bottom: 0px; }
+.neetCriteria .qulImage li .fa { padding-top: 6px; width: 10px; float: left; color: #FF7003; font-size: 10px; }
+.neetCriteria .qulImage li span { padding-left: 10px; width: 98%; float: left; }
+
+.minimumElig { padding: 15px 0; margin-bottom: 15px; }
+.eligibilBox { width: 31.2%; float: left; margin-right: 25px; text-align: left; }
+.eligibilBox:last-child { margin-right: 0px; }
+.eligibilBox h4 { margin: 0px; line-height: 23px; background: #230224; padding: 10px; font-size: 14px; color: #fff; border-radius: 8px 8px 0px 0px; letter-spacing: 0.11px; }
+.eligibilBox h4 img { width: 25px; height: 25px; float: left; margin-right: 10px; }
+.eligibilBox ul { padding: 10px 15px 0 15px; background: #F7EBF8; height: 190px; }
+.eligibilBox li { width:100%; float: left; padding: 3px 0;}
+.eligibilBox li .fa { padding-top: 6px; width: 10px; float: left; color: #FF7003; font-size: 10px; }
+.eligibilBox li span { padding-left: 10px; width: 95%; float: left; color: #000; font-size: 14px; letter-spacing: 0.11px; }
+
+.neetAppBox { margin: 30px 0; padding: 35px 0; background-repeat: repeat-x; position: relative; }
+.neetAppBox .fixtopAppImg { height: 26px; width: 100%; float: left; position: absolute; top: -20px; left: 0px; z-index: 2; }
+.neetAppBox .fixtopAppImg img { width: 100%; float: left; }
+.neetAppBox h2 { text-align: center; font-size: 26px; font-weight: 700; color: #fff; padding: 0px; margin: 0 0 50px 0; }
+.neetAppBox li { width: 20%; float: left; text-align: center; position: relative; }
+.neetAppBox li .desctext { font-size: 14px; color: #fff; padding: 20px; line-height: 23px; }
+.neetAppBox li .circleBg { float: none; margin:0px auto; display: block; width: 50px; height: 50px; background: #1D8EFC; line-height: 43px; text-align: center; border-radius: 100%;  }
+.neetAppBox li .circleBg img { width: 50%; }
+.neetAppBox li .circleBg img.mar_l_5 { margin-left:  6px; }
+.neetAppBox li .attachIcon { width: 86px;float: left; position:absolute; top: 12px; right: 0px; z-index: 2; }
+.neetAppBox li .attachIcon.last { width: 16px; right: 70px; }
+.neetAppBox li .attachIconLeft { width: 86px; float: left; position:absolute; top: 12px; left: 0px; z-index: 2; }
+
+.neetWindow { padding: 15px 0 50px 0; margin: 30px 0; }
+.neetWindow .qulImage { width: 60%; float: left; }
+.neetWindow .qulImage h2 { font-size: 26px; font-weight: 700; color: #000; padding: 0px 0 10px 0; margin: 0 0 10px 0;}
+.neetWindow .qulImage.right { width: 40%; float: right; }
+.pad_a_100 { padding: 0 100px 0 50px!important; }
+.neetWindow p { font-size: 15px; padding-right: 100px; }
+.neetWindow img { margin-top: 20px; float: right; width: 85%; }
+
+.neetlearnBox { margin: 30px 0 0 0; padding: 35px 0; background-repeat: repeat-x; position: relative; }
+.neetlearnBox .fixtoplearnImg { height: 26px; width: 100%; float: left; position: absolute; top: -50px; left: 0px; z-index: 2; }
+.neetlearnBox .fixtoplearnImg img { width: 100%; float: left; }
+.neetlearnBox h2 { text-align: center; font-size: 26px; font-weight: 700; color: #1F0120; padding: 0px 210px; margin: 0 0 50px 0; }
+.disFlex { display: flex; justify-content: center; align-items: center; }
+
+.neetBtnBox { padding: 35px 0 0 0; }
+.neetBtnBox a { float: left; font-size: 14px; line-height: 22px; cursor: pointer; text-align: center; border-radius: 4px; padding: 7px 10px; margin-right: 15px; background: #1D8EFC; color: #fff!important; }
+
+@media only screen and (max-width: 767px){ 
+    .neetBox { display:none; }
+    .neetBox.right { display: block; width: 100%; }
+    .neetFacts li { text-align: center; width: 100%; margin-right: 0px; margin-bottom: 15px;}
+    .neetFacts li span { float: none; display: block; margin: 0px auto; }
+    .neetCriteria h2 { font-size: 20px; }
+    .neetCriteria .qulImage,.neetCriteria .qulImage.right { width:100%; text-align: center; }
+    .neetCriteria .qulImage.right,.neetWindow .qulImage.right { margin-top: 25px; }
+    .neetCriteria .qulImage li span { width: 92%; }
+    .eligibilBox,.neetAppBox li { width: 100%; margin: 0 0 25px 0;}
+    .neetAppBox .fixtopAppImg,.neetAppBox li .attachIcon,.neetAppBox li .attachIconLeft,.neetlearnBox .fixtoplearnImg { display: none;}
+    .neetWindow .qulImage,.neetWindow .qulImage.right,.neetWindow img { width: 100%; }
+    .row_full.pad_a_100 { padding: 0px!important; text-align: center;}
+    .neetWindow .qulImage h2 { font-size: 20px; }
+    .neetWindow p { padding-right: 0px;}
+    .neetlearnBox h2 { padding: 0px;}
+    .disFlex img { width: 100%; }
+
+
+}

@@ -1,0 +1,21 @@
+/*======= super admin pannel =========*/
+.superAdminCntr { background: #3E0340; padding: 112px 0; height: 100%; }
+.display_flex { display: flex; justify-content: center; align-items: center; }
+.superAdminBox { min-height: 320px; border-radius: 5px; width: 60%; float: left; background: #fff; box-shadow: 0 1px 8px 4px rgba(0, 0, 0, 0.36); }
+.superAdminBox .signUpLeft { text-align: center; background: #1E90FF; border-top-left-radius: 6px; border-bottom-left-radius: 6px;}
+.superAdminBox .signUpRight,.superAdminBox .signUpLeft { min-height: 320px; width: 50%; padding: 20px; float:left; }
+.superAdminBox .signUpRight h3 { text-align: center; text-transform: inherit; width: 100%; float: left; padding: 0; font-size: 28px; color: #000; font-weight: 700; }
+.superAdminBox .signUpRight h3 span { font-weight:600; font-size: 14px; display: block; color: #1E90FF; padding-top: 5px; }
+.superAdminBox .signUpRight h3 span.welcome { color: #000; }
+.superAdminBox .signUpRight .form-group { width: 48.2%; float: left; margin: 0 10px 15px 0; }
+.superAdminBox .signUpRight .loginBox .form-group { width: 100%; float: left; margin-right:0px; margin-bottom: 15px;  }
+.superAdminBox .signUpRight .loginBox .lastelm { margin-bottom: 5px!important; }
+.superAdminBox .signUpRight .form-group:nth-child(even) { margin-right: 0px; }
+.superAdminBox .signUpRight .lastelm { width: 100%!important; float: left; margin-right:0px; margin-bottom: 5px; }
+.superAdminBox .signUpRight .btn { padding: 12px 25px; color: #fff; font-size: 17px; border-radius: 6px; color: #fff; background: #230224; }
+.superAdminBox .signUpRight .btn:hover { color: #fff; }
+.superAdminBox .signUpRight .form-control,.superAdminBox .signUpLeft .form-control:focus { box-shadow:none; background: #fff; border: 1px solid #A7A7A7; height: 40px; line-height: 40px; padding: 10px!important; border-radius: 7px; }
+.superAdminBox .errorMsg { max-width: 350px; color: #f21e08; padding: 0; margin-top: 2px; font-size: 11px; font-weight: 300; margin-bottom: 0px!important; }
+.superAdminBox .signinLink p { margin: 0px; text-align: center; padding: 0 19px; width: 100%; float: left; font-size: 13px; color: #333; }
+.superAdminBox .signinLink p a { color: #1e90ff; }
+.superAdminBox.stdLogin { font-size: 15px; color: #1E90FF; text-transform: capitalize;}

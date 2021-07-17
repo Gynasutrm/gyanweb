@@ -1,0 +1,92 @@
+.jeeCntr { background: #f7eaf8; padding: 50px 0; }
+.jeeCntr h2 { text-align: center; font-size: 26px; font-weight: 700; color: #000; padding: 0px 250px; margin: 0; text-transform: inherit;}
+.jeeCntr h2 span { display: block; padding-top: 15px; line-height: 20px; font-weight: normal; letter-spacing: 0.11px; font-size:14px; color: #434343; }
+
+.jeeCntr .jeeBox {  margin-top: 60px; }
+.jeeCntr .jeeBox li { padding: 15px; min-height: 200px;  background: #230224; width: 18.9%; float: left; margin-right: 15px; text-align: left; position: relative; }
+.jeeCntr .jeeBox li:last-child { margin-right: 0px; }
+.jeeCntr .jeeBox li p { padding: 0 20px; margin-top: 30px; text-align: center; width: 100%; float: left;  color: #fff; font-size: 15px; line-height: 25px; letter-spacing: 0.13px; }
+.jeeCntr .jeeBox li span { float: left; position: absolute; top: -25px; left: 40%; z-index: 2; width: 50px; height: 50px; background: #f57c03; border: 2px solid #fff; line-height: 43px; text-align: center; border-radius: 100%;  }
+.jeeCntr .jeeBox li span img { width: 50%; }
+
+.jeenewsCntr { padding: 50px 0; }
+.jeenewsCntr h2 { text-align: center; font-size: 26px; font-weight: 700; color: #000; padding: 0px 100px; margin: 0; text-transform: inherit;}
+.jeenewsCntr .jeeLink { padding-top: 5px; text-align: center; }
+.jeenewsCntr .jeeLink li { width: 100%; float: lef; padding: 0 285px; margin-top: 15px; }
+.jeenewsCntr .jeeLink li a { font-size: 16px; color: #1860CC; cursor:pointer; }
+
+.textPattern { padding-top: 55px; }
+.textPattern .jeeLink.textOnly li { font-size: 14px; padding: 0 250px; color: #2B2B2B; letter-spacing: 0.11px; }
+.jmainBtn { float: none; margin: 0px auto; display: block; width: 210px!important; }
+
+.dispFlex { display: flex; justify-content: center; align-items: center; }
+.jeeAgeBox { margin-top: 45px; font-size: 14px; padding: 15px 20px; float: lef; width: 60%; background: #ffefef; border: 1px solid #E5CFCF; border-radius: 6px; }
+.jeeAgeBox li { width: 100%; float: left; margin-bottom: 10px;}
+.jeeAgeBox li span { color: #DF6C06;}
+.jeeBtn.inline { padding-bottom: 45px; margin-top: 45px!important; position: relative; }
+.jeeBtn.inline a { width: 99%!important; display: inline-block; position: relative; z-index: 3; background: #fff; }
+.borHoriZ { z-index: 2; position: absolute; top: -44px; left: 48%; height: 136px; width: 2px; background: #aca0ad;}
+.borHoriZ.small { height: 50px; left: 50%; top: 90%; }
+.tableBox { width: 56%; float: left; margin-right: 20px; font-size: 14px; letter-spacing: 0.11px; }
+.tableBox.last { margin-right: 20px; }
+.tableBox ul.customUlElm { background: #FFEFEF; border: 1px solid #E5CFCF; border-radius: 6px; padding: 12px; min-height: 275px;}
+.tableBox.first { width: 42%!important; float: left; }
+.tableBox .customUlElm.jeeElmsm { width: 47.8%!important; }
+.tableBox.last .customUlElm.jeeElmsm { width: 38.8%!important; }
+
+.tableBox .customUlElm.jeeElmsm.small { width: 15%!important; }
+.setWdth.jeeBtn.inline a { width: 205px!important; float: right; margin: 0 -60px 0 60px;}
+.setWdth.jeeBtn.inline.right a { float: left; }
+.tableBox:last-child { margin-right: 0px; }
+.tableBox li { width: 100%; float: left; padding-bottom: 10px; }
+
+.borHorivft { z-index: 2; position: absolute; top: 26%; left: 10%; height: 2px; width: 348px; background: #aca0ad;}
+.borHoriZft { z-index: 2; position: absolute; top: -44px; left: 85%; height: 136px; width: 2px; background: #aca0ad;}
+.borHoriZft.last { left: 30%; }
+
+.borHoriulFirst { z-index: 2; position: absolute; top: -27px; left: 20%; height: 27px; width: 2px; background: #aca0ad;}
+
+
+
+.jeeBtn { margin-top: 35px; text-align: center; position: relative; }
+.jeeBtn a { display: block; padding: 3px; border: 1px dashed #FF4E00; border-radius: 3px; position: relative; z-index: 3; background:#fff}
+.jeeBtn a span { position: relative; width: 100%; display: block; margin: 0px auto; border-radius: 4px; background: #230224; color: #fff!important; font-size: 15px; padding: 8px 15px; }
+.jeeBtn p { width: 100%; float: lef; margin-top: 20px; letter-spacing: 0.11px; color: #2D2D2D; font-size: 17px; color: #2D2D2D; }
+.jeeBtn .phaseicon { width: 100px; padding: 0px!important; position: absolute; right: -97px; bottom: -19px; z-index: 2; background: none; }
+
+
+.jeenewBox { margin-top: 60px; display: flex; justify-content: center; align-items: center; }
+.jeenewBox .midTable { width: 50%!important; float: left; box-shadow: 0px 0px 69px #6D4B0729; border-radius: 2px; padding-bottom: 10px; }
+.jeenewBox li { width: 100%; float: left; }
+.jeenewBox li.titleList { background: #F3E2E2; }
+.jeenewBox li.titleList span { font-size: 16px; border-right: 1px solid transparent; }
+.jeenewBox li span { border-right: 1px solid #efefef; padding: 6px 20px; width: 33%; float: left; font-size: 14px; color: #230224; letter-spacing: 0.11px;}
+.jeenewBox li span:last-child { border-right: 1px solid transparent; }
+
+
+.jeeWindow { padding: 35px 0 80px 0; }
+.jeereservBox { width: 35%; float: left; }
+.jeereservBox.right { width: 63%; float: right; padding-left: 25px; }
+.jeereservBox .jeeBtn .jeeBtnWidth { width: 310px; text-align: center; }
+.jeereservBox .jeeBtn { text-align: left; margin-top: 0px!important; }
+.jeereservBox .jeeBtn p { font-size: 14px; padding-right: 0px;}
+.jeereservBox .jeenewBox { margin-top: 30px; }
+.jeereservBox .jeenewBox .midTable { width: 100%!important; }
+.jeereservBox .jeenewBox .midTable.half li span { width: 50%!important; padding-left: 35px!important;  }
+
+
+.jeeAppBox { margin: 40px 0; padding: 80px 0; background-repeat: repeat-x; position: relative; }
+.jeeAppBox .fixtopAppImg { height: 26px; width: 100%; float: left; position: absolute; top: -20px; left: 0px; z-index: 2; }
+.jeeAppBox .fixtopAppImg img { width: 100%; float: left; }
+.jeeAppBox .leftJeeBox { width: 60%; float: left; padding-right: 20px; }
+.jeeAppBox .leftJeeBox.right { width: 40%; float: right; }
+.jeeAppBox .leftJeeBox.right img { width: 100%; }
+.jeeAppBox h2 { font-size: 26px; line-height: 36px; font-weight: 700; color: #fff; padding: 0px 80px 0 0; margin: 0 0 40px 0; text-transform: inherit; }
+.jeeAppBox li { width: 100%; float: left; font-size: 14px; color: #fff; margin-bottom: 10px; }
+.jeeAppBox li .fa { width: 15px; float: left; color: #FF7003; padding-top: 4px; }
+.jeeAppBox li span { width: 97%; float: left; padding-left: 10px; }
+
+@media only screen and (max-width: 767px){ 
+
+
+}
